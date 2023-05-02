@@ -2,7 +2,7 @@
   <div class="max-w-[100%] mx-auto p-8">
     <h1 class="text-4xl font-bold mb-5">{{ meal.strMeal }}</h1>
     <div class="flex items-center justify-center shadow rounded-x1">
-      <img :src="meal.strMealThumb" :alt="meal.strMeal" class="max-w-[100%] ">
+      <img :src="meal.strMealThumb" :alt="meal.strMeal" class="max-w-[100%] mt-5 mb-5">
     </div>
     <div class="flex items-center justify-center mt-4">
         <YouTubeButton :href="meal.strYoutube" />
