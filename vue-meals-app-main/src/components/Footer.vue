@@ -9,6 +9,3 @@
       <!-- Copyright -->
     </MDBFooter>
   </template>
-<script>
-
-</script>

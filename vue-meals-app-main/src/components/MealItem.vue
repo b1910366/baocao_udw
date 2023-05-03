@@ -9,7 +9,7 @@
         class="rounded-t-xl w-full h-48 object-cover"
       />
     </router-link>
-    <div class="p-3">
+    <div class="p-3 mb-1">
       <h3 class="font-bold">{{ meal.strMeal }}</h3>
       <p class="mb-4">
         {{ $filters.truncateWords(meal.strInstructions, 20) }}
